@@ -1,0 +1,420 @@
+@import "general.scss";
+
+@media screen and (max-width: 1338px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.main {
+			display: none;
+			justify-content: center;
+			background-color: $VeryDarkBlue;
+			max-width: 350px;
+
+			.colOne {
+				margin-top: 0px;
+				margin-right: 15px;
+				display: block;
+				height: 203px;
+				width: 327px;
+
+				.top {
+					height: 133px;
+					width: 327px;
+					background-color: $VioletSocial;
+					border-radius: 10px;
+					z-index: 2;
+					color: white;
+					.content {
+						display: flex;
+						align-items: center;
+						margin: 20px;
+						.text {
+							display: flex;
+							margin: 20px;
+						}
+
+						.profile {
+							border: solid white 2px;
+						}
+
+						.title {
+							font-family: "Rubik";
+							font-style: normal;
+							font-weight: 400;
+							font-size: 15px;
+							line-height: 18px;
+							color: #bbc0ff;
+						}
+						.name {
+							margin-top: 4px;
+							font-size: 24px;
+							font-weight: 300;
+						}
+					}
+				}
+				.bottom {
+					z-index: 1;
+					margin-top: -35px;
+					height: 70px;
+					width: 327px;
+					background-color: $DarkBlue;
+					border-radius: 10px;
+					display: flex;
+					align-items: center;
+					justify-content: space-evenly;
+
+					.content {
+						color: $DesaturatedBlue;
+						height: 100%;
+						width: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: space-evenly;
+
+						#daily {
+							&:hover {
+								color: white;
+							}
+						}
+						#weekly {
+							&:hover {
+								color: white;
+							}
+						}
+						#monthly {
+							&:hover {
+								color: white;
+							}
+						}
+						.active {
+							color: white;
+						}
+					}
+				}
+			}
+			.flex-grid {
+				display: block;
+				width: 350px;
+				.col {
+					background-color: red;
+					height: 244px;
+					margin-right: 15px;
+					margin-left: 15px;
+					border-radius: 10px;
+					overflow: hidden;
+					margin-top: 25px;
+					.card {
+						background-color: $DarkBlue;
+						width: 100%;
+						border-radius: 10px;
+						height: 85%;
+						margin-top: 20%;
+						color: white;
+						&:hover {
+							background-color: $Blue;
+						}
+						.header {
+							padding: 30px;
+							display: flex;
+							justify-content: space-between;
+
+							align-items: center;
+							.dots {
+								height: 7px;
+							}
+						}
+						.body {
+							margin-left: 30px;
+
+							margin-bottom: 30px;
+						}
+					}
+				}
+				.work {
+					background-image: url("../images/icon-work.svg");
+					background-color: $LightRedWork;
+				}
+				.play {
+					background-image: url("../images/icon-play.svg");
+					background-color: $SoftBluePlay;
+				}
+				.study {
+					background-image: url("../images/icon-study.svg");
+					background-color: $LightRedStudy;
+				}
+				.exercise {
+					background-image: url("../images/icon-exercise.svg");
+					background-color: $LimeGreenExercise;
+				}
+				.social {
+					background-image: url("../images/icon-social.svg");
+					background-color: $VioletSocial;
+				}
+				.self {
+					background-image: url("../images/icon-self-care.svg");
+					background-color: $SoftOrangeSelf;
+				}
+			}
+		}
+		.mobileMain {
+			margin-top: 30px;
+			.nameCard {
+				.top {
+					position: relative;
+					display: flex;
+					align-items: center;
+					height: 133px;
+					width: 327px;
+					background-color: $VioletSocial;
+					color: white;
+					border-radius: 10px;
+					z-index: 2;
+					.content {
+						margin: 32px;
+						display: flex;
+						align-items: center;
+						.profile {
+							height: 64px;
+							width: 64px;
+							border: solid white 4px;
+							border-radius: 50px;
+						}
+						.text {
+							display: block;
+							margin-left: 5px;
+							.title {
+								font-size: 14px;
+								color: $PaleBlue;
+							}
+							.name {
+								font-size: 24px;
+							}
+						}
+					}
+				}
+				.bottom {
+					position: relative;
+					height: 85px;
+					width: 327px;
+					border-radius: 10px;
+					color: $PaleBlue;
+					background-color: $DarkBlue;
+					margin-top: -15px;
+					z-index: 1;
+					.content {
+						padding-top: 40px;
+						display: flex;
+						align-items: center;
+						justify-content: space-evenly;
+					}
+				}
+			}
+			.work {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.work {
+				background-image: url("../images/icon-work.svg");
+				background-color: $LightRedWork;
+			}
+			.play {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.play {
+				background-image: url("../images/icon-play.svg");
+				background-color: $SoftBluePlay;
+			}
+			.study {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.study {
+				background-image: url("../images/icon-study.svg");
+				background-color: $LightRedStudy;
+			}
+			.exercise {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.exercise {
+				background-image: url("../images/icon-exercise.svg");
+				background-color: $LimeGreenExercise;
+			}
+			.social {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.social {
+				background-image: url("../images/icon-social.svg");
+				background-color: $VioletSocial;
+			}
+			.self {
+				margin-top: 24px;
+				height: 160px;
+				width: 327px;
+				display: flex;
+				border-radius: 10px;
+				.card {
+					border-radius: 10px;
+					margin-top: 38px;
+					height: 122px;
+					width: 327px;
+					background-color: $DarkBlue;
+					color: white;
+
+					.header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-bottom: 0px;
+					}
+					.body {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin: 28px;
+						margin-top: 8px;
+					}
+				}
+			}
+			.self {
+				background-image: url("../images/icon-self-care.svg");
+				background-color: $SoftOrangeSelf;
+			}
+		}
+	}
+}

@@ -1,0 +1,729 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0f1424;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0f1424;
+}
+
+@media screen and (min-width: 1339px) {
+  body {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .mobileMain {
+    display: none;
+  }
+  body .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #0f1424;
+    width: 1110px;
+    height: 518px;
+  }
+  body .main .colOne {
+    margin-top: 0px;
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: inherit;
+    width: 255px;
+  }
+  body .main .colOne .top {
+    height: 354px;
+    width: 255px;
+    background-color: #7536d3;
+    border-radius: 10px;
+    z-index: 2;
+    color: white;
+  }
+  body .main .colOne .top .content {
+    margin: 25px;
+  }
+  body .main .colOne .top .content .profile {
+    height: 65px;
+    border: solid white 2px;
+    border-radius: 35px;
+  }
+  body .main .colOne .top .content .title {
+    margin-top: 40px;
+    font-size: 12px;
+  }
+  body .main .colOne .top .content .name {
+    margin-top: 10px;
+  }
+  body .main .colOne .bottom {
+    z-index: 1;
+    margin-top: -50px;
+    height: 184px;
+    width: 255px;
+    background-color: #1c1f4a;
+    border-radius: 10px;
+  }
+  body .main .colOne .bottom .content {
+    padding-top: 30px;
+    color: #6f76c8;
+    margin: 30px;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .colOne .bottom .content #daily:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content #weekly:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content #monthly:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content .active {
+    color: white;
+  }
+  body .main .flex-grid {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  body .main .flex-grid .col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 25%;
+            flex: 1 0 25%;
+    background-color: red;
+    height: 244px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  body .main .flex-grid .col .card {
+    background-color: #1c1f4a;
+    width: 100%;
+    border-radius: 10px;
+    height: 85%;
+    margin-top: 20%;
+    color: white;
+  }
+  body .main .flex-grid .col .card:hover {
+    background-color: #5847eb;
+  }
+  body .main .flex-grid .col .card .header {
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .flex-grid .col .card .header .dots {
+    height: 7px;
+  }
+  body .main .flex-grid .col .card .body {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  body .main .flex-grid .work {
+    background-image: url("../images/icon-work.svg");
+    background-color: #ff8c66;
+  }
+  body .main .flex-grid .play {
+    background-image: url("../images/icon-play.svg");
+    background-color: #56c2e6;
+  }
+  body .main .flex-grid .study {
+    background-image: url("../images/icon-study.svg");
+    background-color: #ff5c7c;
+  }
+  body .main .flex-grid .exercise {
+    background-image: url("../images/icon-exercise.svg");
+    background-color: #4acf81;
+  }
+  body .main .flex-grid .social {
+    background-image: url("../images/icon-social.svg");
+    background-color: #7536d3;
+  }
+  body .main .flex-grid .self {
+    background-image: url("../images/icon-self-care.svg");
+    background-color: #f1c65b;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0f1424;
+}
+
+@media screen and (max-width: 1338px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main {
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #0f1424;
+    max-width: 350px;
+  }
+  body .main .colOne {
+    margin-top: 0px;
+    margin-right: 15px;
+    display: block;
+    height: 203px;
+    width: 327px;
+  }
+  body .main .colOne .top {
+    height: 133px;
+    width: 327px;
+    background-color: #7536d3;
+    border-radius: 10px;
+    z-index: 2;
+    color: white;
+  }
+  body .main .colOne .top .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px;
+  }
+  body .main .colOne .top .content .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+  }
+  body .main .colOne .top .content .profile {
+    border: solid white 2px;
+  }
+  body .main .colOne .top .content .title {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #bbc0ff;
+  }
+  body .main .colOne .top .content .name {
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  body .main .colOne .bottom {
+    z-index: 1;
+    margin-top: -35px;
+    height: 70px;
+    width: 327px;
+    background-color: #1c1f4a;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .main .colOne .bottom .content {
+    color: #6f76c8;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .main .colOne .bottom .content #daily:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content #weekly:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content #monthly:hover {
+    color: white;
+  }
+  body .main .colOne .bottom .content .active {
+    color: white;
+  }
+  body .main .flex-grid {
+    display: block;
+    width: 350px;
+  }
+  body .main .flex-grid .col {
+    background-color: red;
+    height: 244px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+  }
+  body .main .flex-grid .col .card {
+    background-color: #1c1f4a;
+    width: 100%;
+    border-radius: 10px;
+    height: 85%;
+    margin-top: 20%;
+    color: white;
+  }
+  body .main .flex-grid .col .card:hover {
+    background-color: #5847eb;
+  }
+  body .main .flex-grid .col .card .header {
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .flex-grid .col .card .header .dots {
+    height: 7px;
+  }
+  body .main .flex-grid .col .card .body {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  body .main .flex-grid .work {
+    background-image: url("../images/icon-work.svg");
+    background-color: #ff8c66;
+  }
+  body .main .flex-grid .play {
+    background-image: url("../images/icon-play.svg");
+    background-color: #56c2e6;
+  }
+  body .main .flex-grid .study {
+    background-image: url("../images/icon-study.svg");
+    background-color: #ff5c7c;
+  }
+  body .main .flex-grid .exercise {
+    background-image: url("../images/icon-exercise.svg");
+    background-color: #4acf81;
+  }
+  body .main .flex-grid .social {
+    background-image: url("../images/icon-social.svg");
+    background-color: #7536d3;
+  }
+  body .main .flex-grid .self {
+    background-image: url("../images/icon-self-care.svg");
+    background-color: #f1c65b;
+  }
+  body .mobileMain {
+    margin-top: 30px;
+  }
+  body .mobileMain .nameCard .top {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 133px;
+    width: 327px;
+    background-color: #7536d3;
+    color: white;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  body .mobileMain .nameCard .top .content {
+    margin: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .mobileMain .nameCard .top .content .profile {
+    height: 64px;
+    width: 64px;
+    border: solid white 4px;
+    border-radius: 50px;
+  }
+  body .mobileMain .nameCard .top .content .text {
+    display: block;
+    margin-left: 5px;
+  }
+  body .mobileMain .nameCard .top .content .text .title {
+    font-size: 14px;
+    color: #bdc1ff;
+  }
+  body .mobileMain .nameCard .top .content .text .name {
+    font-size: 24px;
+  }
+  body .mobileMain .nameCard .bottom {
+    position: relative;
+    height: 85px;
+    width: 327px;
+    border-radius: 10px;
+    color: #bdc1ff;
+    background-color: #1c1f4a;
+    margin-top: -15px;
+    z-index: 1;
+  }
+  body .mobileMain .nameCard .bottom .content {
+    padding-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .mobileMain .work {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .work .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .work .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .work .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .work {
+    background-image: url("../images/icon-work.svg");
+    background-color: #ff8c66;
+  }
+  body .mobileMain .play {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .play .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .play .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .play .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .play {
+    background-image: url("../images/icon-play.svg");
+    background-color: #56c2e6;
+  }
+  body .mobileMain .study {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .study .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .study .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .study .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .study {
+    background-image: url("../images/icon-study.svg");
+    background-color: #ff5c7c;
+  }
+  body .mobileMain .exercise {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .exercise .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .exercise .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .exercise .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .exercise {
+    background-image: url("../images/icon-exercise.svg");
+    background-color: #4acf81;
+  }
+  body .mobileMain .social {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .social .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .social .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .social .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .social {
+    background-image: url("../images/icon-social.svg");
+    background-color: #7536d3;
+  }
+  body .mobileMain .self {
+    margin-top: 24px;
+    height: 160px;
+    width: 327px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+  }
+  body .mobileMain .self .card {
+    border-radius: 10px;
+    margin-top: 38px;
+    height: 122px;
+    width: 327px;
+    background-color: #1c1f4a;
+    color: white;
+  }
+  body .mobileMain .self .card .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-bottom: 0px;
+  }
+  body .mobileMain .self .card .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 28px;
+    margin-top: 8px;
+  }
+  body .mobileMain .self {
+    background-image: url("../images/icon-self-care.svg");
+    background-color: #f1c65b;
+  }
+}
+/*# sourceMappingURL=main.css.map */
