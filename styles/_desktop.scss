@@ -27,7 +27,7 @@
 				.top {
 					height: 354px;
 					width: 255px;
-					background-color: $VioletSocial;
+					background-color: $DesaturatedBlue;
 					border-radius: 10px;
 					z-index: 2;
 					color: white;
@@ -42,6 +42,7 @@
 						.title {
 							margin-top: 40px;
 							font-size: 12px;
+							color: $PaleBlue;
 						}
 						.name {
 							margin-top: 10px;
@@ -127,26 +128,38 @@
 				.work {
 					background-image: url("../images/icon-work.svg");
 					background-color: $LightRedWork;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 				.play {
 					background-image: url("../images/icon-play.svg");
 					background-color: $SoftBluePlay;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 				.study {
 					background-image: url("../images/icon-study.svg");
 					background-color: $LightRedStudy;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 				.exercise {
 					background-image: url("../images/icon-exercise.svg");
 					background-color: $LimeGreenExercise;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 				.social {
 					background-image: url("../images/icon-social.svg");
 					background-color: $VioletSocial;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 				.self {
 					background-image: url("../images/icon-self-care.svg");
 					background-color: $SoftOrangeSelf;
+					background-repeat: no-repeat;
+					background-position: top right;
 				}
 			}
 		}

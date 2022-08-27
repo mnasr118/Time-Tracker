@@ -167,7 +167,7 @@
 					align-items: center;
 					height: 133px;
 					width: 327px;
-					background-color: $VioletSocial;
+					background-color: $DesaturatedBlue;
 					color: white;
 					border-radius: 10px;
 					z-index: 2;
@@ -243,6 +243,8 @@
 			}
 			.work {
 				background-image: url("../images/icon-work.svg");
+				background-repeat: no-repeat;
+				background-position: top right;
 				background-color: $LightRedWork;
 			}
 			.play {
@@ -278,6 +280,8 @@
 			.play {
 				background-image: url("../images/icon-play.svg");
 				background-color: $SoftBluePlay;
+				background-repeat: no-repeat;
+				background-position: top right;
 			}
 			.study {
 				margin-top: 24px;
@@ -312,6 +316,8 @@
 			.study {
 				background-image: url("../images/icon-study.svg");
 				background-color: $LightRedStudy;
+				background-repeat: no-repeat;
+				background-position: top right;
 			}
 			.exercise {
 				margin-top: 24px;
@@ -346,6 +352,8 @@
 			.exercise {
 				background-image: url("../images/icon-exercise.svg");
 				background-color: $LimeGreenExercise;
+				background-repeat: no-repeat;
+				background-position: top right;
 			}
 			.social {
 				margin-top: 24px;
@@ -380,6 +388,8 @@
 			.social {
 				background-image: url("../images/icon-social.svg");
 				background-color: $VioletSocial;
+				background-repeat: no-repeat;
+				background-position: top right;
 			}
 			.self {
 				margin-top: 24px;
@@ -414,6 +424,8 @@
 			.self {
 				background-image: url("../images/icon-self-care.svg");
 				background-color: $SoftOrangeSelf;
+				background-repeat: no-repeat;
+				background-position: top right;
 			}
 		}
 	}

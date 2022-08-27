@@ -11,7 +11,7 @@ function day(item) {
 
 		hours.forEach((hour) => {
 			if (hour.parentElement.classList.contains(item[0])) {
-				hour.innerHTML = item[1];
+				hour.innerHTML = `${item[1]}` + "hrs";
 			}
 		});
 		difference.forEach((number) => {
@@ -30,7 +30,7 @@ function week(item) {
 
 		hours.forEach((hour) => {
 			if (hour.parentElement.classList.contains(item[0])) {
-				hour.innerHTML = item[1];
+				hour.innerHTML = `${item[1]}` + "hrs";
 			}
 		});
 		difference.forEach((number) => {
@@ -49,7 +49,7 @@ function month(item) {
 
 		hours.forEach((hour) => {
 			if (hour.parentElement.classList.contains(item[0])) {
-				hour.innerHTML = item[1];
+				hour.innerHTML = `${item[1]}` + "hrs";
 			}
 		});
 		difference.forEach((number) => {
@@ -67,7 +67,7 @@ function run(item) {
 
 	hours.forEach((hour) => {
 		if (hour.parentElement.classList.contains(item[0])) {
-			hour.innerHTML = item[1];
+			hour.innerHTML = `${item[1]}` + "hrs";
 		}
 	});
 	difference.forEach((number) => {
